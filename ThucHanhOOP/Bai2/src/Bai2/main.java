@@ -22,6 +22,5 @@ public class main {
             if(!id.contains("n"))   kiemthu.InsertStudent(id, ten, noisinh, diem);
         } while(!id.contains("n"));
         kiemthu.DisplayStudent();
-
     }
 }
